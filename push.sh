@@ -1,1 +1,1 @@
-git pull && /root/.nvm/versions/node/v6.6.0/bin/node add.js && git commit -a -m 'git auto commit' && git push origin master
+cd /root/time-commit && git config --system user.email "24786545+tianyagogogo@users.noreply.github.com" && git config --system user.name "tianyagogogo"  && git pull && echo $(date) > records.txt && git commit -a -m 'git commit '  && git push origin main
